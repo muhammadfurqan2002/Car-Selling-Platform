@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import Service from "@/Shared/Service";
+import Service from "@/shared/Service";
 import { useUser } from "@clerk/clerk-react";
 import React from "react";
 import { useNavigate } from "react-router-dom";

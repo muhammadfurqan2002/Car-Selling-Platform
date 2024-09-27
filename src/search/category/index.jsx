@@ -1,11 +1,11 @@
 import Header from "@/components/Header";
 import Search from "@/components/Search";
-import { db } from "./../../../Configs";
-import { CarImages, CarListing } from "./../../../Configs/schema";
+import { db } from "../../../configs";
+import { CarImages, CarListing } from "../../../configs/schema";
 import { eq } from "drizzle-orm";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Service from "@/Shared/Service";
+import Service from "@/shared/Service";
 import CarItem from "@/components/CarItem";
 
 function SearchByCategory() {

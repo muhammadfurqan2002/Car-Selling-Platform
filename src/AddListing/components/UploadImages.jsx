@@ -1,11 +1,11 @@
 import { Button } from "@/components/ui/button";
-import { storage } from "./../../../Configs/firebaseConfig";
+import { storage } from "../../../configs/firebaseConfig";
 import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
 import React, { useEffect, useState } from "react";
 import { GiLeafSkeleton } from "react-icons/gi";
 import { RxCross1 } from "react-icons/rx";
-import { db } from "./../../../Configs";
-import { CarImages } from "./../../../Configs/schema";
+import { db } from "../../../configs";
+import { CarImages } from "../../../configs/schema";
 import { eq } from "drizzle-orm";
 
 function UploadImages({ triggerUploadImages, setOnSaveLoader, carInfo, mode }) {

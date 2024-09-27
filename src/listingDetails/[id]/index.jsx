@@ -1,11 +1,11 @@
 import Header from "@/components/Header";
 import DetailHeader from "../components/DetailHeader";
 import { useParams } from "react-router-dom";
-import { db } from "./../../../Configs";
-import { CarImages, CarListing } from "./../../../Configs/schema";
+import { db } from "../../../configs";
+import { CarImages, CarListing } from "../../../configs/schema";
 import { eq } from "drizzle-orm";
 import { useEffect, useState } from "react";
-import Service from "@/Shared/Service";
+import Service from "@/shared/Service";
 import ImageGaller from "../components/ImageGaller";
 import CarDescription from "../components/CarDescription";
 import Features from "../components/Features";

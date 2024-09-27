@@ -1,5 +1,5 @@
-import IconField from "@/AddListing/components/IconField";
-import CarSpecification from "@/Shared/CarSpecification";
+import IconField from "@/addListing/components/IconField";
+import CarSpecification from "@/shared/CarSpecification";
 import React from "react";
 
 function MyCarSpecification({ carDetail }) {

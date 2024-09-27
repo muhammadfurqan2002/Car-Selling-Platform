@@ -1,4 +1,4 @@
-import FakeData from '@/Shared/FakeData'
+import FakeData from '@/shared/FakeData'
 import React, { useEffect, useState } from 'react'
 import CarItem from './CarItem'
 import {
@@ -8,11 +8,11 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
-import { db } from './../../Configs'
-import { CarImages, CarListing } from './../../Configs/schema'
+import { db } from '../../configs'
+import { CarImages, CarListing } from '../../configs/schema'
 import { desc, eq } from 'drizzle-orm'
 import { useUser } from '@clerk/clerk-react'
-import Service from '@/Shared/Service'
+import Service from '@/shared/Service'
 
 function MostSearchCar() {
 

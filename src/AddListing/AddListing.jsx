@@ -8,8 +8,8 @@ import TextArea from "./components/TextArea";
 import { Separator } from "@/components/ui/separator";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Button } from "@/components/ui/button";
-import { db } from "./../../Configs";
-import { CarImages, CarListing } from "./../../Configs/schema";
+import { db } from "../../configs";
+import { CarImages, CarListing } from "../../configs/schema";
 import IconField from "./components/iconField";
 import UploadImages from "./components/UploadImages";
 import { BiLoaderAlt } from "react-icons/bi";
@@ -18,7 +18,7 @@ import { useNavigate, useSearchParams } from "react-router-dom";
 import { useUser } from "@clerk/clerk-react";
 import moments from "moment";
 import { eq } from "drizzle-orm";
-import Service from "@/Shared/Service";
+import Service from "@/shared/Service";
 
 function AddListing() {
   const [formData, setFormData] = useState({});
